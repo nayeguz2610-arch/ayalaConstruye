@@ -24,8 +24,9 @@
                 </svg>
               </div>
               <div class="absolute top-full left-0 hidden group-hover:flex flex-col bg-white shadow-lg rounded py-2 w-40 z-50">
-                <a href="{{ route('obras.lista') }}" class="px-4 py-2 text-gray-700 hover:bg-cyan-100 hover:text-cyan-700 transition">Lista</a>
+                
                 <a href="{{ route('obras.create') }}" class="px-4 py-2 text-gray-700 hover:bg-cyan-100 hover:text-cyan-700 transition">Alta</a>
+                <a href="{{ route('obras.lista') }}" class="px-4 py-2 text-gray-700 hover:bg-cyan-100 hover:text-cyan-700 transition">Consulta</a>
                 <!--<a href="{{ route('obras.mapa') }}" class="px-4 py-2 text-gray-700 hover:bg-cyan-100 hover:text-cyan-700 transition">Mapa</a>-->
               </div>
             </div>
@@ -40,8 +41,9 @@
                 </svg>
               </div>
               <div class="absolute top-full left-0 hidden group-hover:flex flex-col bg-white shadow-lg rounded py-2 w-40 z-50">
-                <a href="{{ route('obras.lista') }}" class="px-4 py-2 text-gray-700 hover:bg-cyan-100 hover:text-cyan-700 transition">Lista</a>
-                <a href="{{ route('register') }}" class="px-4 py-2 text-gray-700 hover:bg-cyan-100 hover:text-cyan-700 transition">Alta</a>
+                
+                <a href="{{ route('admin.users.create') }}" class="px-4 py-2 text-gray-700 hover:bg-cyan-100 hover:text-cyan-700 transition">Alta</a>
+                <a href="{{ route('admin.users.index') }}" class="px-4 py-2 text-gray-700 hover:bg-cyan-100 hover:text-cyan-700 transition">Consulta</a>
                 <!--<a href="{{ route('obras.mapa') }}" class="px-4 py-2 text-gray-700 hover:bg-cyan-100 hover:text-cyan-700 transition">Mapa</a>-->
               </div>
             </div>
